@@ -1,0 +1,319 @@
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #040E17;
+            --accent-color: #e74c3c;
+            --text-color: #333;
+            --bg-color: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white !important;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: white;
+            padding: 100px 0;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+        }
+
+        .card {
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--accent-color);
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+        }
+
+        .flex {
+            display: flex;
+            gap: 10px;
+        }
+
+        .img {
+            width: 30px;
+        }
+
+
+
+
+
+        .image {
+            height: 330px;
+            width: 330px;
+            margin: auto;
+        }
+
+        /* Section Title */
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+
+        /* Card and Body Styling */
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #0056b3;
+            /* Title color */
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        /* Background color for the section */
+        #data-security {
+            background-color: #f8f9fa;
+            /* Light background for better readability */
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .col-md-6 {
+                margin-bottom: 20px;
+            }
+        }
+
+
+        /* Contact Section Title */
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+
+        /* Contact Form Styling */
+        #contactForm input,
+        #contactForm textarea {
+            font-size: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        /* Button Styling */
+        .btn-primary {
+            background-color: #0056b3;
+            border: none;
+            padding: 0.75rem;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #004085;
+        }
+
+        /* Contact Info Styling */
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #0056b3;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .social-icon {
+            font-size: 1.5rem;
+            color: #0056b3;
+            transition: color 0.3s;
+        }
+
+        .social-icon:hover {
+            color: #004085;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .card-body {
+                padding: 1.5rem;
+            }
+
+            .social-icon {
+                font-size: 1.25rem;
+            }
+        }
+
+
+        /* Pricing Section */
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #0056b3;
+        }
+
+        .card-subtitle {
+            color: #6c757d;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .btn-primary {
+            background-color: #0056b3;
+            border: none;
+            font-size: 1.1rem;
+            padding: 0.75rem;
+            border-radius: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: #004085;
+        }
+
+        /* Testimonials Section */
+        #testimonials .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        #testimonials .card-body {
+            padding: 1.25rem;
+        }
+
+        #testimonials .card-text {
+            font-size: 1rem;
+            font-style: italic;
+        }
+
+        /* Section Title Styling */
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .card-body {
+                padding: 1.25rem;
+            }
+
+            .btn-primary {
+                width: 100%;
+            }
+        }
+
+
+
+        
+    /* Background and Padding */
+    footer {
+        background-color: #212529;
+        /* Dark background for the footer */
+        color: #fff;
+        padding: 2rem 0;
+    }
+
+    /* Footer Text */
+    footer p {
+        font-size: 1rem;
+        color: #aaa;
+        /* Lighter text for copyright */
+    }
+
+    /* Footer Links */
+    .footer-links a {
+        font-size: 1.5rem;
+        /* Larger icons for better visibility */
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    /* Link Hover Effects */
+    .footer-links a:hover {
+        color: #ff5733;
+        /* Highlight color */
+    }
+
+    /* Align footer text for larger screens */
+    @media (max-width: 768px) {
+        footer .row {
+            text-align: center;
+        }
+
+        footer .footer-links {
+            margin-top: 1rem;
+        }
+    }
