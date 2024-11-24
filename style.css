@@ -16,6 +16,8 @@
             background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
 
         }
+        
+          
 
         .navbar-brand,
         .nav-link {
@@ -77,9 +79,11 @@
 
 
         .image {
-            height: 330px;
-            width: 330px;
+            height: 300px;
+            width: 300px;
             margin: auto;
+            object-fit: cover; /* Ensures the image scales properly */
+            border-radius: 50%;
         }
 
         /* Section Title */
@@ -255,6 +259,7 @@
             font-size: 1rem;
             font-style: italic;
         }
+        
 
         /* Section Title Styling */
         .section-title {
@@ -280,40 +285,50 @@
         
     /* Background and Padding */
     footer {
-        background-color: #212529;
-        /* Dark background for the footer */
-        color: #fff;
-        padding: 2rem 0;
+        background-color: #121212; /* Dark background for a modern and elegant look */
+        color: #ffffff; /* White text for contrast and readability */
     }
-
-    /* Footer Text */
-    footer p {
-        font-size: 1rem;
-        color: #aaa;
-        /* Lighter text for copyright */
+    
+    footer h6 {
+        font-size: 14px; /* Adjusted font size for footer headings */
+        font-weight: bold; /* Bold font to make section titles stand out */
+        margin-bottom: 15px; /* Space below headings for better spacing */
     }
-
-    /* Footer Links */
-    .footer-links a {
-        font-size: 1.5rem;
-        /* Larger icons for better visibility */
-        text-decoration: none;
-        transition: all 0.3s ease;
+    
+    footer ul {
+        padding: 0; /* Removes default padding for list */
+        list-style: none; /* Hides bullet points for a clean appearance */
     }
-
-    /* Link Hover Effects */
-    .footer-links a:hover {
-        color: #ff5733;
-        /* Highlight color */
+    
+    footer ul li {
+        margin-bottom: 10px; /* Spacing between list items for better readability */
     }
-
-    /* Align footer text for larger screens */
-    @media (max-width: 768px) {
-        footer .row {
-            text-align: center;
-        }
-
-        footer .footer-links {
-            margin-top: 1rem;
-        }
+    
+    footer ul li a {
+        color: #ffffff; /* Default link color matches footer text */
+        font-size: 14px; /* Adjusted font size for consistency */
+        text-decoration: none; /* Removes underline from links */
+        transition: color 0.3s; /* Smooth transition effect when hovering */
     }
+    
+    footer ul li a:hover {
+        color: #f0ad4e; /* Highlight color on hover for better interactivity */
+    }
+    
+    footer hr {
+        border-color: #444444; /* Subtle divider color for separation without distraction */
+    }
+    
+    footer .text-md-start,
+    footer .text-md-end {
+        font-size: 14px; /* Font size for copyright text and social links */
+    }
+    .mb-3{
+        margin-right: 52px;
+    }
+    .flex{
+        display: flex;
+        gap: 20px;
+        justify-items: center;
+    }
+  
