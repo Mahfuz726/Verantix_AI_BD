@@ -16,6 +16,9 @@
             background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
 
         }
+        .social{
+            height: 30px;
+        }
         
           
 
@@ -323,7 +326,7 @@
     footer .text-md-end {
         font-size: 14px; /* Font size for copyright text and social links */
     }
-    .mb-3{
+    .mb-3{             /*Follow Us 8/
         margin-right: 52px;
     }
     .flex{
