@@ -326,9 +326,9 @@
     footer .text-md-end {
         font-size: 14px; /* Font size for copyright text and social links */
     }
-    .mb-3{             /*Follow Us 8/
-        margin-right: 52px;
-    }
+    .mb-3{             
+        margin-bottom: 52px;
+    } 
     .flex{
         display: flex;
         gap: 20px;
